@@ -1,0 +1,199 @@
+.skin-blue-light .main-header .navbar {
+    background-color: black!important;
+}
+.skin-blue-light .main-header .logo{
+	background-color: black!important;
+}
+.skin-blue-light .main-header li.user-header {
+    background-color: #00ABEE;
+}
+.btn-primary {
+    background-color: #00ABEE;
+	border-color: #00ABEE;
+}
+.primary-color {
+    color: #00ABEE;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover {
+    background-color: #2ebcfc;
+    border-color: #2ebcfc;
+}
+a.underlineborder {
+    position: relative;
+}
+a.underlineborder:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+	left: 0;
+    border: 1px solid #00ABEE;
+    content: '';
+	background: #00ABEE;
+	height: 2px;
+}
+a.underlineborder:hover:after {
+    border: 1px solid #2ebcfc;
+}
+body.signup-req .has-feedback label~.form-control-feedback {
+    top: 0px;
+}
+body.sidebar-collapse a.logo img {
+	content: url('http://baseline.foundersapproach.org/public/images/Icon-white.png');
+}
+.breakdownclass{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-bottom: 40px;
+}
+.breakdownclass p:nth-child(2n+1){
+	float: left;
+	width: 100%;
+	clear: both;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin: 0;
+}
+.breakdownclass p:nth-child(2n){
+	float: left;
+	width: 100%;
+	clear: both;
+	background: #eee;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin: 0;
+}
+.breakdownclass p span{
+	float: right;
+	margin-right: 10px;
+	font-weight: 700;
+}
+.breakdownclass p span.splfullwidth {
+    float: left;
+    margin: 10px;
+    width: calc(100% - 20px);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.breakdownclass p b{
+	float: left;
+	margin-left:10px;
+	font-weight: 600;
+}
+.breakdownclass {
+    float: left;
+    width: 31%;
+    margin-bottom: 40px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    clear: none;
+	min-width: 300px;
+    margin: 1%;
+}
+.breakdownclass h2 {
+    background: black!important;
+    color: white;
+    margin: 0;
+    padding: 20px;
+	width: 100%;
+	float: left;
+}
+.main-header {
+    position: fixed;
+    max-height: 100px;
+    z-index: 1030;
+    left: 0;
+    right: 0;
+}
+body > .wrapper > .content-wrapper{
+	padding-top: 60px;
+}
+.breakdownclass h2 a {
+    float: right;
+    font-size: 16px;
+    padding: 7px 15px;
+    background: black;
+    break-after: avoid;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.breakdownclass h2 a:hover {
+    background: white;
+    color: black;
+}
+
+body.sidebar-mini > .wrapper{
+	min-height: 100vh!important;
+}
+
+body.sidebar-mini > .wrapper > .content-wrapper{
+	min-height: calc(100vh - 50px)!important;
+}
+
+.breakdownclass h2 span {
+    float: left;
+    clear: both;
+    width: 100%;
+    font-size: 18px;
+}
+
+.breakdownclass h2 hr {
+	float: left;
+    clear: both;
+    width: 100%;
+    margin: 8px 0;
+}
+.breakdownclass h2 span b{
+    font-size: 75%;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+	.main-sidebar {
+		position: fixed;
+	}
+}
+body.sidebar-collapse header.main-header a.logo img {
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+	.dataTables_paginate li.previous.paginate_button, .dataTables_paginate li.next.paginate_button {
+		display: none!important;
+	}
+	header.main-header{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: black;
+	}
+	#accordion .box-body{
+		padding: 5px!important;
+	}
+	header.main-header > a, header.main-header > nav.navbar.navbar-static-top {
+		float: left;
+		width: auto;
+	}
+	.content-header .breadcrumb{
+		display: none;
+	}
+	body > .wrapper > .content-wrapper{
+		padding-top: 80px;
+	}
+	.main-header .logo{
+		height: 80px;
+	}
+	.breakdownclass {
+		width: 98%;
+	}
+	.main-sidebar {
+		padding-top: 80px!important;
+	}
+}
